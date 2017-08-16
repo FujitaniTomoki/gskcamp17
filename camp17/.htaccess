@@ -1,0 +1,6 @@
+DirectoryIndex index.html index.htm index.shtml index.php index.cgi
+AuthName "Web access"
+AuthUserFile /home/tsukuba-gsk/www/skill-up/camp17/.htpasswd
+AuthType Basic
+require valid-user
+Order deny,allow
